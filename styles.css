@@ -130,3 +130,7 @@ form label,
 form input {
 	margin-bottom: 10px;
 }
+
+.active {
+	border-bottom: 1px solid #333;
+}
