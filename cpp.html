@@ -1,50 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>C++</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <div class="marquee">
-            <h1>Top Programming Languages</h1>
-        </div>
-    </header>
-    <aside id="sidebar">
-        <div class="sidebar-content">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-				<li><a href="#" onclick="openLanguage('python')" onmouseover="changeBackgroundColor('python')" onmouseout="resetBackgroundColor('python')">Python</a></li>
-                <li><a href="#" onclick="openLanguage('c')" onmouseover="changeBackgroundColor('c')" onmouseout="resetBackgroundColor('c')">C</a></li>
-                <li><a href="#" onclick="openLanguage('cpp')" onmouseover="changeBackgroundColor('cpp')" onmouseout="resetBackgroundColor('cpp')">C++</a></li>
-                <li><a href="#" onclick="openLanguage('java')" onmouseover="changeBackgroundColor('java')" onmouseout="resetBackgroundColor('java')">Java</a></li>
-                <li><a href="#" onclick="openLanguage('csharp')" onmouseover="changeBackgroundColor('csharp')" onmouseout="resetBackgroundColor('csharp')">C#</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </div>
-    </aside>
-    <main id="main-content">
-        <div class="content">
-            <section>
-                <h2>C++</h2>
-                <img src="logos\cpp_logo.png" alt="C++ Logo">
-                <p>C++ is a general-purpose, object-oriented programming language and an extension of the C programming language.</p>
-                <p>C++ is widely used in game development, system programming, embedded systems, and high-performance applications.</p>
-                <p>With features like classes, inheritance, polymorphism, and templates, C++ provides a powerful and flexible programming environment.</p>
-                <div class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/YYV0cPuwO2s" frameborder="0" allowfullscreen></iframe>
-                </div>
-            </section>
-        </div>
-    </main>
-    <footer>
-        <div class="footer-content">
-            <p>&copy; 2024 C++ Programming Language</p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<title>C++</title>
+	</head>
+	<body>
+		<header>
+			<marquee behavior="alternate" direction="right"
+				>Linguagens de programação</marquee
+			>
+		</header>
+		<aside id="sidebar">
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="python.html">Python</a></li>
+					<li><a href="c.html">C</a></li>
+					<li><a href="cpp.html">C++</a></li>
+					<li><a href="java.html">Java</a></li>
+					<li><a href="csharp.html">C#</a></li>
+					<li><a href="contact.html">Contato</a></li>
+				</ul>
+			</nav>
+		</aside>
+		<main id="main-content">
+			<section>
+				<div class="content-logo">
+					<img src="assets/cpp_logo.png" alt="cpp logo" />
+				</div>
+				<div class="content">
+					<h2>C++</h2>
+					<p>
+						A linguagem C++ foi desenvolvida cerca de 8 anos depois
+						da criação da linguagem C, em 1980, por Bjarne
+						Stroustrup. Nessa época, o C++ ainda era chamado de “C
+						with Classes”.
+					</p>
+					<p>Em 1982, passou a se chamar C++.</p>
+					<p>
+						Enquanto o paradigma do C é procedural, o C++ é o
+						multi-paradigma, onde podemos utilizar os mesmos
+						recursos que o C, porém com a possibilidade de
+						implementar a programação orientada a objetos(POO).
+					</p>
+					<div class="video-container">
+						<iframe
+							width="560"
+							height="315"
+							src="https://www.youtube.com/embed/ZGy4jG_W7qw?si=o0hWHwpjwe4LRyad"
+							frameborder="0"
+							allowfullscreen></iframe>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="footer-content">
+				<p>
+					&copy; 2024 Alunos de Análise e Desenvolvimento de Sistemas
+				</p>
+			</div>
+		</footer>
+	</body>
 </html>

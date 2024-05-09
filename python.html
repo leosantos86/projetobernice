@@ -1,50 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Python</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <div class="marquee">
-            <h1>Top Programming Languages</h1>
-        </div>
-    </header>
-    <aside id="sidebar">
-        <div class="sidebar-content">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-				<li><a href="#" onclick="openLanguage('python')" onmouseover="changeBackgroundColor('python')" onmouseout="resetBackgroundColor('python')">Python</a></li>
-                <li><a href="#" onclick="openLanguage('c')" onmouseover="changeBackgroundColor('c')" onmouseout="resetBackgroundColor('c')">C</a></li>
-                <li><a href="#" onclick="openLanguage('cpp')" onmouseover="changeBackgroundColor('cpp')" onmouseout="resetBackgroundColor('cpp')">C++</a></li>
-                <li><a href="#" onclick="openLanguage('java')" onmouseover="changeBackgroundColor('java')" onmouseout="resetBackgroundColor('java')">Java</a></li>
-                <li><a href="#" onclick="openLanguage('csharp')" onmouseover="changeBackgroundColor('csharp')" onmouseout="resetBackgroundColor('csharp')">C#</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </div>
-    </aside>
-    <main id="main-content">
-        <div class="content">
-            <section>
-                <h2>Python</h2>
-                <img src="logos\python_logo.png" alt="Python Logo">
-                <p>Python is a high-level, interpreted programming language known for its simplicity and readability.</p>
-                <p>Python is widely used in web development, data analysis, artificial intelligence, scientific computing, and more.</p>
-                <p>With its extensive standard library and third-party packages like NumPy, Pandas, and TensorFlow, Python is a versatile language for various applications.</p>
-                <div class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/hxGB7LU4i1I" frameborder="0" allowfullscreen></iframe>
-                </div>
-            </section>
-        </div>
-    </main>
-    <footer>
-        <div class="footer-content">
-            <p>&copy; 2024 Python Programming Language</p>
-        </div>
-    </footer>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<title>Python</title>
+	</head>
+	<body>
+		<header>
+			<marquee behavior="alternate" direction="right"
+				>Linguagens de programação</marquee
+			>
+		</header>
+		<aside id="sidebar">
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="python.html">Python</a></li>
+					<li><a href="c.html">C</a></li>
+					<li><a href="cpp.html">C++</a></li>
+					<li><a href="java.html">Java</a></li>
+					<li><a href="csharp.html">C#</a></li>
+					<li><a href="contact.html">Contato</a></li>
+				</ul>
+			</nav>
+		</aside>
+		<main id="main-content">
+			<section>
+				<div class="content-logo">
+					<img src="assets/python_logo.png" alt="Python Logo" />
+				</div>
+				<div class="content">
+					<h2>Python</h2>
+					<p>
+						Python foi criada por Guido Van Rossum, um programador
+						Holandês. Ele começou em 1989, e em 1991 foi lançada a
+						sua primeira versão.
+					</p>
+					<p>
+						O Python é uma linguagem de programação interpretada
+						(executada linha a linha) amplamente usada em aplicações
+						da Web, desenvolvimento de software, ciência de dados e
+						machine learning (ML). Os desenvolvedores usam o Python
+						pois pode ser executada em muitas plataformas
+						diferentes.
+					</p>
+					<p>
+						O software Python pode ser baixado gratuitamente,
+						integra-se bem a todos os tipos de sistema e agiliza o
+						desenvolvimento.
+					</p>
+					<div class="video-container">
+						<iframe
+							width="560"
+							height="315"
+							src="https://www.youtube.com/embed/hxGB7LU4i1I"
+							frameborder="0"
+							allowfullscreen></iframe>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="footer-content">
+				<p>
+					&copy; 2024 Alunos de Análise e Desenvolvimento de Sistemas
+				</p>
+			</div>
+		</footer>
 
-    <script src="script.js"></script>
-</body>
+		<script src="script.js"></script>
+	</body>
 </html>

@@ -1,70 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Top Programming Languages</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <div class="marquee">
-            <h1>Top Programming Languages</h1>
-        </div>
-    </header>
-    <aside id="sidebar">
-        <div class="sidebar-content">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-				<li><a href="#" onclick="openLanguage('python')" onmouseover="changeBackgroundColor('python')" onmouseout="resetBackgroundColor('python')">Python</a></li>
-                <li><a href="#" onclick="openLanguage('c')" onmouseover="changeBackgroundColor('c')" onmouseout="resetBackgroundColor('c')">C</a></li>
-                <li><a href="#" onclick="openLanguage('cpp')" onmouseover="changeBackgroundColor('cpp')" onmouseout="resetBackgroundColor('cpp')">C++</a></li>
-                <li><a href="#" onclick="openLanguage('java')" onmouseover="changeBackgroundColor('java')" onmouseout="resetBackgroundColor('java')">Java</a></li>
-                <li><a href="#" onclick="openLanguage('csharp')" onmouseover="changeBackgroundColor('csharp')" onmouseout="resetBackgroundColor('csharp')">C#</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </div>
-    </aside>
-    <main id="main-content">
-        <div class="content">
-            <section>
-                <h2>Welcome to the World of Programming!</h2>
-                <p>Below is a table showing the ranking of the top programming languages:</p>
-                <table>
-                    <tr>
-                        <th>Rank</th>
-                        <th>Language</th>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Python</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>C</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>C++</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>Java</td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td>C#</td>
-                    </tr>
-                </table>
-            </section>
-        </div>
-    </main>
-    <footer>
-        <div class="footer-content">
-            <p>&copy; 2024 Top Programming Languages</p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<title>Linguagens de Programação</title>
+	</head>
+	<body>
+		<header>
+			<marquee behavior="alternate" direction="right"
+				>Linguagens de programação</marquee
+			>
+		</header>
+		<aside id="sidebar">
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="python.html">Python</a></li>
+					<li><a href="c.html">C</a></li>
+					<li><a href="cpp.html">C++</a></li>
+					<li><a href="java.html">Java</a></li>
+					<li><a href="csharp.html">C#</a></li>
+					<li><a href="contact.html">Contato</a></li>
+				</ul>
+			</nav>
+		</aside>
+		<main id="main-content">
+			<section>
+				<div class="content-image">
+					<img src="assets/programador.jpg" alt="programador" />
+				</div>
+				<div class="content">
+					<h2>Linguagens de programação. O que são?</h2>
+					<p>
+						Assim como existe a linguagem humana, utilizada para que
+						seja possível a comunicação entre pessoas, há também a
+						linguagem de programação, que permite a comunicação
+						entre humano-máquina. Isso porque o computador não tem
+						capacidade de compreender a linguagem utilizada por nós.
+					</p>
+					<p>
+						É através de regras de sintaxe e de semântica que
+						podemos enviar dados e instruções para que o computador
+						execute alguma tarefa. E é esse conjunto de regras que
+						forma uma determinada linguagem de programação.
+					</p>
+					<p>
+						As linguagens possuem características próprias que as
+						diferem umas das outras. Uma dessas características é a
+						sua proximidade ou da linguagem binária de máquina
+						(baixo nível), ou da linguagem humana (alto nível). Se
+						não houvesse linguagens de programação de alto nível,
+						seria necessário passar informações ao computador de
+						forma binária, o que tornaria o trabalho extremamente
+						propenso ao erro.
+					</p>
+					<p>
+						Com as linguagens de alto nível, escrevem-se algoritmos
+						de forma mais próxima ao que o ser humano está
+						habituado. Posteriormente, o código escrito é
+						interpretado ou compilado. Se for interpretado, a
+						conversão ocorre em tempo real, linha a linha. E se for
+						compilado, o código é alterado, sendo transformado em um
+						objeto de linguagem que o computador entende.
+					</p>
+					<p>
+						Uma vez que existem diferentes necessidades na
+						programação, cada linguagem possui características
+						próprias, tornando-as mais ou menos indicadas para cada
+						caso e para cada paradigma de programação.
+					</p>
+					<p>
+						Abaixo uma tabela com as linguagens de programação mais
+						usadas em 2024:
+					</p>
+					<table>
+						<tr>
+							<th>Rank</th>
+							<th>Linguagem</th>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>Python</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>C</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>C++</td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td>Java</td>
+						</tr>
+						<tr>
+							<td>5</td>
+							<td>C#</td>
+						</tr>
+					</table>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="footer-content">
+				<p>
+					&copy; 2024 Alunos de Análise e Desenvolvimento de Sistemas
+				</p>
+			</div>
+		</footer>
+	</body>
 </html>
