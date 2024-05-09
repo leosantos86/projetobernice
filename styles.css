@@ -125,3 +125,8 @@ form {
 	padding: 10px;
 	font-weight: bold;
 }
+
+form label,
+form input {
+	margin-bottom: 10px;
+}
