@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Programming Languages</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="marquee">
+            <h1>Top Programming Languages</h1>
+        </div>
+    </header>
+    <aside id="sidebar">
+        <div class="sidebar-content">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+				<li><a href="#" onclick="openLanguage('python')" onmouseover="changeBackgroundColor('python')" onmouseout="resetBackgroundColor('python')">Python</a></li>
+                <li><a href="#" onclick="openLanguage('c')" onmouseover="changeBackgroundColor('c')" onmouseout="resetBackgroundColor('c')">C</a></li>
+                <li><a href="#" onclick="openLanguage('cpp')" onmouseover="changeBackgroundColor('cpp')" onmouseout="resetBackgroundColor('cpp')">C++</a></li>
+                <li><a href="#" onclick="openLanguage('java')" onmouseover="changeBackgroundColor('java')" onmouseout="resetBackgroundColor('java')">Java</a></li>
+                <li><a href="#" onclick="openLanguage('csharp')" onmouseover="changeBackgroundColor('csharp')" onmouseout="resetBackgroundColor('csharp')">C#</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </aside>
+    <main id="main-content">
+        <div class="content">
+            <section>
+                <h2>Welcome to the World of Programming!</h2>
+                <p>Below is a table showing the ranking of the top programming languages:</p>
+                <table>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Language</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Python</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>C</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>C++</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Java</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>C#</td>
+                    </tr>
+                </table>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Top Programming Languages</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
