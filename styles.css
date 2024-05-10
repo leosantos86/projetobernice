@@ -131,6 +131,21 @@ form input {
 	margin-bottom: 10px;
 }
 
-.active {
-	border-bottom: 1px solid #333;
+.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted lightgrey;
+}
+
+.tooltip .tooltiptext {
+	visibility: hidden;
+	text-align: center;
+	background-color: black;
+	border-radius: 6px;
+	padding: 3px;
+	position: absolute;
+}
+
+.tooltip:hover .tooltiptext {
+	visibility: visible;
 }
